@@ -1,2 +1,15 @@
 @import "tailwindcss";
 
+@layer utility{
+  .input-style{
+    @apply text-sm flex lg:w-[80%] justify-between  text-indigo-900 font-semibold
+  }
+
+  .p-style{
+    @apply text-sm px-1 font-semibold text-indigo-900 border-b border-indigo-900
+  }
+
+  .border-style{
+    @apply border border-indigo-900
+  }
+}
