@@ -38,7 +38,7 @@ export default function Home() {
                   Branch Name : <Select />
                 </p>
                 <p className="text-sm flex lg:w-[80%] justify-between  text-indigo-900 font-semibold">
-                  Vehicle Reg No. : <Select />
+                  Vehicle Reg No. : <Select options={['CG 07 C 8755', 'CG 07 C 8755', 'CG 07 C 8755', 'CG 07 C 8755']} />
                 </p>
                 <p className="text-sm flex lg:w-[80%] justify-between  text-indigo-900 font-semibold">
                   Empty Weight : <Input />
@@ -55,10 +55,10 @@ export default function Home() {
               </div>
               <div className="p-1 space-y-2">
                 <p className="text-sm flex lg:w-[80%] justify-between  text-indigo-900 font-semibold">
-                  Product Name : <Select />
+                  Product Name : <Select options={["LAR", "LCO2", "LIN", "LOX"]} />
                 </p>
                 <p className="text-sm flex lg:w-[80%] justify-between  text-indigo-900 font-semibold">
-                  Vitt No. : <Select />
+                  Vitt No. : <Select options={["100-01", "100-02", "100-03", "100-04"]} />
                 </p>
                 <p className="text-sm flex lg:w-[80%] justify-between  text-indigo-900 font-semibold">
                   Filled Weight : <Input />
@@ -75,7 +75,7 @@ export default function Home() {
                   Transaction Data Date : <Input />
                 </p>
                 <p className="text-sm flex lg:w-[80%] justify-between  text-indigo-900 font-semibold">
-                  Filled Station : <Select />
+                  Filling Station : <Select  options={["Accident Site Musli D", "Accident Site Musli F"]}/>
                 </p>
               </div>
             </div>
@@ -142,7 +142,7 @@ export default function Home() {
               </div>
               <div className="p-1 space-y-2">
                 <p className="text-sm flex lg:w-[80%] justify-between  text-indigo-900 font-semibold">
-                  Reporting Station : <Select />
+                  Reporting Station : <Select options={["ACE Pipelines Rewari", "Aditya AIR"]} />
                 </p>
                 <p className="text-sm flex lg:w-[80%] justify-between  text-indigo-900 font-semibold">
                   Remarks : <TextArea />
